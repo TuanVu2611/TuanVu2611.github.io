@@ -3,20 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Thử nghiệm Bot Traffic</title>
+    <title>Test Bot Traffic</title>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=GTM-558FF26G"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'GTM-558FF26G');
+    </script>
+
     <style>
         body {
             font-family: Arial, sans-serif;
             background: linear-gradient(to right, #e0eafc, #cfdef3);
             text-align: center;
             padding: 50px;
-        }
-        h1 {
-            color: #333;
-        }
-        p {
-            font-size: 18px;
-            color: #555;
         }
         .note {
             background: white;
@@ -29,9 +32,8 @@
 </head>
 <body>
     <div class="note">
-        <h1>Chào mừng bạn đến với trang test traffic!</h1>
-        <p>Trang này dùng để kiểm tra truy cập tự động từ bot hoặc người dùng thật.</p>
-        <p><strong>Hãy thử reload hoặc dùng tool tự động truy cập để kiểm tra số lượng visit.</strong></p>
+        <h1>Trang test bot traffic</h1>
+        <p>Đang theo dõi truy cập bằng Google Analytics.</p>
     </div>
 </body>
 </html>
